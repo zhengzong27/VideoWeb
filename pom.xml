@@ -52,10 +52,12 @@
 
 
 		<!-- lombok在编译期调用,简化get，set，toString方法 -->
+		<!-- Maven 示例 -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>1.18.30</version> <!-- 检查并替换为最新版本 -->
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
